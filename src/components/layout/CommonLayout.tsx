@@ -4,7 +4,7 @@ import Footer from "./Footer";
 
 export default function CommonLayout({ children }: { children: ReactNode }) {
   return (
-    <div>
+    <div className="max-w-[1400px] mx-auto">
       <Navbar />
       {children}
       <Footer/>
