@@ -1,6 +1,17 @@
 import React, { useState, useEffect, useRef } from "react";
 import helpCenterGirl from "../../../assets/images/home10_img5.jpg";
-// ... interfaces same as above
+
+interface FormData {
+  name: string;
+  email: string;
+  phone: string;
+  website: string;
+  message: string;
+}
+
+interface SeoAnalysisSectionProps {
+  className?: string;
+}
 
 const SeoAnalysisSection: React.FC<SeoAnalysisSectionProps> = ({
   className = "",

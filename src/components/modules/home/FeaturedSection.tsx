@@ -1,4 +1,3 @@
-import React from "react";
 import map from "../../../assets/images/map-new.png";
 
 const features = [
